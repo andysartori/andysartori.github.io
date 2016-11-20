@@ -68,8 +68,18 @@ section {
   margin-bottom: 9em;
 }
 .green {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 3em;
+  height: 3em;
+  margin: auto;
   background-color: green;
 }
-.red{
+.red {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 3em;
+  height: 3em;
+  margin: auto;
   background-color: red;
 }
