@@ -19,6 +19,7 @@ console.log('hello');
   var turn = true;     // Telling computer that to start variable is equal to true
 
   /*When button is clicked check the value of turn */
+  var button0 = document.querySelector('#token0'); // clear button
   var button1 = document.querySelector('#token1');
   var button2 = document.querySelector('#token2');
   var button3 = document.querySelector('#token3');
@@ -36,6 +37,10 @@ console.log('hello');
   }
 
 
+  console.log(button0);
+  var clearbuttonpushed = function(){
+    document.querySelector(".round").reset(); // set arrays back to blank
+  }
 
   console.log(button1);
   var column1buttonpushed = function() {
@@ -185,7 +190,7 @@ console.log('hello');
 
 
 
-
+  button0.addEventListener('click', clearbuttonpushed);
   button1.addEventListener('click', column1buttonpushed);
   button2.addEventListener('click', column2buttonpushed);
   button3.addEventListener('click', column3buttonpushed);
