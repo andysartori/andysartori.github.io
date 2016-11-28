@@ -80,6 +80,15 @@ section {
   border: 1px solid #fff;
   width: 3em;
   height: 3em;
+
   margin: auto;
   background-color: red;
+}
+.transparent {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 3em;
+  height: 3em;
+  margin: auto;
+  background-color: transparent;
 }
