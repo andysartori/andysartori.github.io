@@ -43,10 +43,10 @@
     for (var row = 0; row < column1.length ; row++){  // all columns are same so use column1
       for (var col = 0; col < allcolumns.length - 3; col++) { //do not check outside board
        if (allcolumns[col][row] === 'green'  && allcolumns[col+1][row] === 'green'  && allcolumns[col+2][row] === 'green'  && allcolumns[col+3][row] === 'green') { // check 4 consecutive places
-         console.log('green won');
+         alert('green won');
          won = true;
        } else if (allcolumns[col][row] === 'red'  && allcolumns[col+1][row] === 'red'  && allcolumns[col+2][row] === 'red'  && allcolumns[col+3][row] === 'red'){
-         console.log('red won');
+         alert('red won');
          won = true;
        }
       }
@@ -57,10 +57,10 @@
     for (var row = 0; row < column1.length ; row++){  // all columns are same so use column1
       for (var col = 0; col < allcolumns.length - 3; col++) {
        if (allcolumns[col][row] === 'green'  && allcolumns[col][row+1] === 'green'  && allcolumns[col][row+2] === 'green'  && allcolumns[col][row+3] === 'green') {
-         console.log('green won');
+         alert('green won');
          won = true;
        } else if (allcolumns[col][row] === 'red'  && allcolumns[col][row+1] === 'red'  && allcolumns[col][row+2] === 'red'  && allcolumns[col][row+3] === 'red'){
-         console.log('red won');
+         alert('red won');
          won = true;
        }
       }
